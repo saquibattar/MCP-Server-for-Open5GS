@@ -1,0 +1,1 @@
+# MCP-Server-for-Open5GS
