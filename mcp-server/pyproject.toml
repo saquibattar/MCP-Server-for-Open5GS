@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open5gs-mcp"
+version = "1.0.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    "mcp[cli]==1.27.2",
+    "requests",
+    "pymongo",
+    "python-dotenv",
+]
+
+[tool.setuptools]
+packages = ["src"]
